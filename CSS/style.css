@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    background-color: #000000;
+    padding: 12px 0;
+}
+
+.head span {
+    color: #fff;
+    font-size: 14px;
+    padding: 13px 1px 12px 29px;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+.head i {
+    color: #fff;
+    float: right;
+    margin-right: 40px;
+}
+
+.first{
+    background-image: url(https://preview.colorlib.com/theme/lendo/assets/img/hero/h1_hero.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 100px;
+    text-align: center;
+}
+.first h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.first p{
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 43px;
+    font-weight: 400;
+}
+.first a{
+    color: #fff;
+    font-size: 18px;
+    padding: 21px 33px 21px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #e61818;
+}
+.first i{
+    font-size: 20px;
+    margin-left: 10px;
+}
