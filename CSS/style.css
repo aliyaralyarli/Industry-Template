@@ -23,6 +23,13 @@
     float: right;
     margin-right: 40px;
     cursor: pointer;
+    transition: .5s;
+}
+
+.head i:hover {
+    color: red;
+    transition: .5s;
+    transform: rotateY(180deg);
 }
 
 .first {
@@ -120,27 +127,31 @@
     transition: .7s;
 }
 
-.hr{
+.hr {
     padding: 2px 0;
     background-color: red;
 }
-.third{
+
+.third {
     background-color: #212529;
     padding: 60px 0;
     text-align: center;
 }
-.third h2{
+
+.third h2 {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 12px;
 }
-.third .p1{
+
+.third .p1 {
     color: #DEDEDE;
     font-size: 18px;
     margin-bottom: 40px;
 }
-.third a{
+
+.third a {
     color: #fff;
     font-size: 18px;
     padding: 20px 33px 20px 25px;
@@ -148,11 +159,13 @@
     text-decoration: none;
     background-color: #e61818;
 }
-.third .p2{
+
+.third .p2 {
     color: #a8a0a0;
     font-size: 14px;
     margin-top: 70px;
 }
+
 *::selection {
     color: rgb(128, 68, 68);
 }
