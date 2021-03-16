@@ -153,3 +153,6 @@
     font-size: 14px;
     margin-top: 70px;
 }
+*::selection {
+    color: rgb(128, 68, 68);
+}
