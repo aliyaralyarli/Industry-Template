@@ -22,29 +22,33 @@
     color: #fff;
     float: right;
     margin-right: 40px;
+    cursor: pointer;
 }
 
-.first{
+.first {
     background-image: url(https://preview.colorlib.com/theme/lendo/assets/img/hero/h1_hero.jpg);
     background-position: center;
     background-size: cover;
     padding: 200px 100px;
     text-align: center;
 }
-.first h1{
+
+.first h1 {
     font-size: 50px;
     color: #fff;
     font-weight: 500;
     font-style: normal;
     margin-bottom: 20px;
 }
-.first p{
+
+.first p {
     font-size: 21px;
     color: #fff;
     margin-bottom: 43px;
     font-weight: 400;
 }
-.first a{
+
+.first a {
     color: #fff;
     font-size: 18px;
     padding: 21px 33px 21px 25px;
@@ -52,7 +56,100 @@
     text-decoration: none;
     background-color: #e61818;
 }
-.first i{
+
+.first i {
     font-size: 20px;
     margin-left: 10px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    padding-left: 45px;
+    line-height: 1.2;
+    font-style: normal;
+    color: #000;
+}
+
+.second {
+    background-color: #F2F4F8;
+}
+
+.title h2 {
+    padding: 50px 0 50px 90px;
+}
+
+.all {
+    overflow: hidden;
+}
+
+.box {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 20%;
+    float: left;
+    padding: 50px 0;
+    margin: 40px 33px 40px;
+    text-align: center;
+}
+
+.box h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.box i {
+    color: red;
+    font-size: 56px;
+    margin-bottom: 20px
+}
+
+.box a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: red;
+    opacity: 0;
+    transition: .7s;
+}
+
+.box a:hover {
+    opacity: 1;
+    transition: .7s;
+}
+
+.hr{
+    padding: 2px 0;
+    background-color: red;
+}
+.third{
+    background-color: #212529;
+    padding: 60px 0;
+    text-align: center;
+}
+.third h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.third .p1{
+    color: #DEDEDE;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.third a{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 33px 20px 25px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #e61818;
+}
+.third .p2{
+    color: #a8a0a0;
+    font-size: 14px;
+    margin-top: 70px;
 }
